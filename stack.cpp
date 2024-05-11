@@ -75,6 +75,24 @@ int main()
         case 1 :
              cout << "Enter the value to push:";
              cin >> value;
+             stack.push(value);
+             break;
+        case 2 :
+        if (!stack.isEmpty()) {
+           stack.pop();
+        }
+        else {
+            cout << "Stack is empty. cannot pop."<<endl;
+        }
+        break;
+        case 3 :
+        if (!stack.isEmpty()) {
+            stack.peek();
+        }
+        else {
+            cout << "Stack is empty. no top value." << endl;
+        }
+        break;
     }
    }
 }
