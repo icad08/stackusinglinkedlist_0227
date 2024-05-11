@@ -13,7 +13,7 @@ class Node {
 
 class stack {
     private:
-    Node *top;
+    Node* top;
 
     public:
     stack() {
@@ -31,7 +31,9 @@ int push(int value){
 }
 
 void pop(){
-    
+    if (isEmpty()){
+        cout << "stack is empty." << top-> data << endl;
+    }
 }
 
 int main()
