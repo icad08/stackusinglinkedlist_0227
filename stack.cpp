@@ -30,6 +30,10 @@ int push(int value){
     return value;
 }
 
+void pop(){
+    
+}
+
 int main()
 {
     
