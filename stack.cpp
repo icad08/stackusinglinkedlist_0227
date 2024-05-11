@@ -39,6 +39,9 @@ void pop(){
 }
 
 void peek(){
+    if (top == NULL){
+        cout << "Stack is Empty" << endl;
+    }
     
 }
 
