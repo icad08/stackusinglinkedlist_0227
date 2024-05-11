@@ -38,6 +38,10 @@ void pop(){
     top = top ->next;
 }
 
+void peek(){
+    
+}
+
 int main()
 {
     
