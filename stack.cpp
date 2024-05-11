@@ -42,7 +42,13 @@ void peek(){
     if (top == NULL){
         cout << "Stack is Empty" << endl;
     }
-    
+    else {
+        Node* current = top;
+        while (current != NULL) {
+            cout << current ->data << " " << endl;
+            current = current ->next;
+        }
+    }
 }
 
 int main()
