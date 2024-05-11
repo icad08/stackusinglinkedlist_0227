@@ -21,6 +21,10 @@ class stack {
     }
 }
 
+int push(int value){
+    
+}
+
 int main()
 {
     
