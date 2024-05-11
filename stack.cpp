@@ -11,6 +11,10 @@ class node {
     }
 };
 
+class stack {
+    
+}
+
 int main()
 {
     
