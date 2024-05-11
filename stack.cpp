@@ -52,6 +52,10 @@ void peek(){
     }
 }
 
+bool isEmpty(){
+    return (top == NULL);
+};
+
 int main()
 {
     
