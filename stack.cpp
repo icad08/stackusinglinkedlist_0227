@@ -94,5 +94,12 @@ int main()
         }
         break;
     }
+    cout << "exiting program." << endl;
+    break;
+    default:
+    cout << "Invalid Choice. try again." << endl;
+    break;
    }
+   cout << endl;
 }
+return 0;
