@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;
 
-class node {
+class Node {
     public:
     int data;
-    node* next;
+    Node* next;
 
-    node() {
+    Node() {
         next = NULL;
     }
 };
 
 class stack {
     private:
-    node *top;
+    Node *top;
 
     public:
     stack() {
@@ -22,6 +22,10 @@ class stack {
 }
 
 int push(int value){
+    Node* newNode = new Node();
+    newNode->data = value;
+    newNode->next = top;
+    top = newNode;
     
 }
 
