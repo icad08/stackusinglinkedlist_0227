@@ -12,7 +12,13 @@ class node {
 };
 
 class stack {
-    
+    private:
+    node *top;
+
+    public:
+    stack() {
+        top = NULL;
+    }
 }
 
 int main()
